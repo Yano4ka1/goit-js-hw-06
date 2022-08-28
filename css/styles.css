@@ -1,19 +1,13 @@
-.image {
-width: 100%;
-height: auto;
-display: block;
-}
 
 .gallery {
+    gap: 40px;
     list-style: none;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    }
+
+.gallery li img {
+    width: 100%;
+    height: auto;
     display: block;
 }
-
-.gallery li {
-    flex-basis: calc((100% - 90px) / 3);
-  }
-  
-  .gallery li:not(:last-child) {
-    margin-right: 30px;
-  }
